@@ -1,5 +1,5 @@
 {
-  "name": "@farcaster/frame-sdk",
+  "name": "@farstack/frame-sdk",
   "version": "0.0.26",
   "main": "dist/index.js",
   "scripts": {
@@ -15,13 +15,13 @@
     "src"
   ],
   "devDependencies": {
-    "@farcaster/tsconfig": "workspace:*",
+    "@farstack/tsconfig": "workspace:*",
     "esbuild": "^0.24.2",
     "mipd": "^0.0.7",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@farcaster/frame-core": "workspace:*",
+    "@farstack/frame-core": "workspace:*",
     "comlink": "^4.4.2",
     "eventemitter3": "^5.0.1",
     "ox": "^0.4.4"

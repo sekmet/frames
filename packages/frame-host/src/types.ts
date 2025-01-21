@@ -1,4 +1,4 @@
-import type { EmitEthProvider, FrameClientEvent } from '@farcaster/frame-core'
+import type { EmitEthProvider, FrameClientEvent } from '@farstack/frame-core'
 import type { Endpoint } from './comlink'
 
 export type HostEndpoint = Endpoint & {

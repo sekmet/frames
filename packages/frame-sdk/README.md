@@ -7,13 +7,13 @@ Not yet stable. [Learn more](https://github.com/farcasterxyz/frames/wiki/frames-
 Install using your favorite manager:
 
 ```
-npm install @farcaster/frame-sdk
+npm install @farstack/frame-sdk
 ```
 
 Or include via a CDN and access via `frame`:
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/@farcaster/frame-sdk/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@farstack/frame-sdk/dist/index.min.js"></script>
 <script>
   frame.sdk.actions.ready();
 </script>

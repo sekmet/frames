@@ -1,4 +1,4 @@
-import type { HostEndpoint } from '@farcaster/frame-host'
+import type { HostEndpoint } from '@farstack/frame-host'
 
 import type { RefObject } from 'react'
 import type WebView from 'react-native-webview'

@@ -1,4 +1,4 @@
-import { sdk } from '@farcaster/frame-sdk'
+import { sdk } from '@farstack/frame-sdk'
 import { createStore } from 'mipd'
 
 const store = createStore()

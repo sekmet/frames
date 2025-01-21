@@ -13,8 +13,8 @@
     "vite": "^6.0.6"
   },
   "dependencies": {
-    "@farcaster/frame-host": "workspace:*",
-    "@farcaster/frame-sdk": "workspace:*",
+    "@farstack/frame-host": "workspace:*",
+    "@farstack/frame-sdk": "workspace:*",
     "mipd": "^0.0.7"
   }
 }

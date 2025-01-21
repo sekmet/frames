@@ -1,4 +1,4 @@
-import { AddFrame, type FrameClientEvent, SignIn } from '@farcaster/frame-core'
+import { AddFrame, type FrameClientEvent, SignIn } from '@farstack/frame-core'
 import { EventEmitter } from 'eventemitter3'
 import { frameHost } from './frameHost'
 import { provider } from './provider'

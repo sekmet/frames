@@ -2,7 +2,7 @@ import {
   type EncodedJsonFarcasterSignatureSchema,
   encodedJsonFarcasterSignatureSchema,
   jsonFarcasterSignatureHeaderSchema,
-} from '@farcaster/frame-core'
+} from '@farstack/frame-core'
 import { ed25519 } from '@noble/curves/ed25519'
 import {
   BaseError,

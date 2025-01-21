@@ -1,7 +1,7 @@
 import type {
   EthProviderWireEvent,
   FrameClientEvent,
-} from '@farcaster/frame-core'
+} from '@farstack/frame-core'
 import type {
   AnnounceProviderParameters,
   AnnounceProviderReturnType,

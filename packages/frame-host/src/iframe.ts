@@ -1,4 +1,4 @@
-import type { FrameHost } from '@farcaster/frame-core'
+import type { FrameHost } from '@farstack/frame-core'
 import type { Provider } from 'ox'
 import * as Comlink from './comlink'
 import { exposeToEndpoint } from './helpers/endpoint'

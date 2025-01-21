@@ -41,10 +41,10 @@ importers:
 
   examples/vanilla:
     dependencies:
-      '@farcaster/frame-host':
+      '@farstack/frame-host':
         specifier: workspace:*
         version: link:../../packages/frame-host
-      '@farcaster/frame-sdk':
+      '@farstack/frame-sdk':
         specifier: workspace:*
         version: link:../../packages/frame-sdk
       mipd:
@@ -67,7 +67,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -76,14 +76,14 @@ importers:
 
   packages/frame-host:
     dependencies:
-      '@farcaster/frame-core':
+      '@farstack/frame-core':
         specifier: workspace:*
         version: link:../frame-core
       ox:
         specifier: ^0.4.4
         version: 0.4.4(typescript@5.7.2)(zod@3.24.1)
     devDependencies:
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':
@@ -98,17 +98,17 @@ importers:
 
   packages/frame-host-react-native:
     dependencies:
-      '@farcaster/frame-core':
+      '@farstack/frame-core':
         specifier: workspace:*
         version: link:../frame-core
-      '@farcaster/frame-host':
+      '@farstack/frame-host':
         specifier: workspace:*
         version: link:../frame-host
       ox:
         specifier: ^0.4.4
         version: 0.4.4(typescript@5.7.2)(zod@3.24.1)
     devDependencies:
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':
@@ -129,7 +129,7 @@ importers:
 
   packages/frame-node:
     dependencies:
-      '@farcaster/frame-core':
+      '@farstack/frame-core':
         specifier: workspace:*
         version: link:../frame-core
       '@noble/curves':
@@ -142,7 +142,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/node':
@@ -160,7 +160,7 @@ importers:
 
   packages/frame-sdk:
     dependencies:
-      '@farcaster/frame-core':
+      '@farstack/frame-core':
         specifier: workspace:*
         version: link:../frame-core
       comlink:
@@ -173,7 +173,7 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4(typescript@5.7.2)(zod@3.24.1)
     devDependencies:
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       esbuild:
@@ -188,10 +188,10 @@ importers:
 
   packages/frame-wagmi-connector:
     devDependencies:
-      '@farcaster/frame-sdk':
+      '@farstack/frame-sdk':
         specifier: workspace:*
         version: link:../frame-sdk
-      '@farcaster/tsconfig':
+      '@farstack/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@wagmi/core':

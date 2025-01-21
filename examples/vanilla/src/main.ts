@@ -1,4 +1,4 @@
-import { type FrameHost, exposeToIframe } from '@farcaster/frame-host'
+import { type FrameHost, exposeToIframe } from '@farstack/frame-host'
 import './style.css'
 
 declare global {

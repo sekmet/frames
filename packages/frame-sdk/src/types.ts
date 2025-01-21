@@ -6,7 +6,7 @@ import type {
   SetPrimaryButtonOptions,
   SignIn,
   ViewProfile,
-} from '@farcaster/frame-core'
+} from '@farstack/frame-core'
 import type { EventEmitter } from 'eventemitter3'
 import type { Provider } from 'ox'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@farcaster/frame-wagmi-connector",
+  "name": "@farstack/frame-wagmi-connector",
   "version": "0.0.14",
   "type": "module",
   "main": "dist/index.js",
@@ -14,8 +14,8 @@
     "src"
   ],
   "devDependencies": {
-    "@farcaster/frame-sdk": "workspace:*",
-    "@farcaster/tsconfig": "workspace:*",
+    "@farstack/frame-sdk": "workspace:*",
+    "@farstack/tsconfig": "workspace:*",
     "@wagmi/core": "^2.16.3",
     "typescript": "^5.7.2",
     "viem": "^2.21.57"
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@farcaster/frame-sdk": "^0.0.26",
+    "@farstack/frame-sdk": "^0.0.26",
     "@wagmi/core": "^2.14.1",
     "viem": "^2.21.55"
   }

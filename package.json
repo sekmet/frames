@@ -1,5 +1,5 @@
 {
-  "name": "frames",
+  "name": "@farstack/frames",
   "private": true,
   "scripts": {
     "build": "turbo build",

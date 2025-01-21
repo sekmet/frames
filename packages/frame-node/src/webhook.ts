@@ -1,4 +1,4 @@
-import { serverEventSchema } from '@farcaster/frame-core'
+import { serverEventSchema } from '@farstack/frame-core'
 import {
   type VerifyJsonFarcasterSignature,
   verifyJsonFarcasterSignature,

@@ -1,4 +1,4 @@
-import type { WireFrameHost } from '@farcaster/frame-core'
+import type { WireFrameHost } from '@farstack/frame-core'
 import { wrap } from 'comlink'
 import { endpoint } from './endpoint'
 

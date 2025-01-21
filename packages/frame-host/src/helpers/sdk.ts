@@ -1,5 +1,5 @@
-import type { FrameHost, WireFrameHost } from '@farcaster/frame-core'
-import { AddFrame, SignIn } from '@farcaster/frame-core'
+import type { FrameHost, WireFrameHost } from '@farstack/frame-core'
+import { AddFrame, SignIn } from '@farstack/frame-core'
 
 export function wrapHandlers(host: FrameHost): WireFrameHost {
   return {

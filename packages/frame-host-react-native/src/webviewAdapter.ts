@@ -1,9 +1,9 @@
-import type { FrameHost } from '@farcaster/frame-core'
+import type { FrameHost } from '@farstack/frame-core'
 import {
   HostEndpoint,
   exposeToEndpoint,
   useExposeToEndpoint,
-} from '@farcaster/frame-host'
+} from '@farstack/frame-host'
 import type { Provider } from 'ox'
 import { type RefObject, useCallback, useEffect, useRef } from 'react'
 import type WebView from 'react-native-webview'

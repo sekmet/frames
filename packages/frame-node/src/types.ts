@@ -1,4 +1,4 @@
-import type { FrameServerEvent } from '@farcaster/frame-core'
+import type { FrameServerEvent } from '@farstack/frame-core'
 
 export type VerifyAppKeyResult =
   | { valid: true; appFid: number }

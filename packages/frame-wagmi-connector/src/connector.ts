@@ -1,4 +1,4 @@
-import FrameSDK from '@farcaster/frame-sdk'
+import FrameSDK from '@farstack/frame-sdk'
 import {
   ChainNotConfiguredError,
   type Connector,
